@@ -1,13 +1,16 @@
-var postsData = [ {
-title: 'Introducing Telescope',
-author: 'Sacha Greif',
-url: 'http://sachagreif.com/introducing-telescope/'
+var postsData = [{
+	title: 'The Man Who Was Thursday',
+	author: 'G. K. Chesterton',
+	url: 'http://en.wikipedia.org/wiki/The_Man_Who_Was_Thursday'
 }, {
-title: 'Meteor',
-author: 'Tom Coleman', url: 'http://meteor.com'
+	title: 'The Screwtape Letters',
+	author: 'C. S. Lewis',
+	url: 'http://en.wikipedia.org/wiki/The_Screwtape_Letters'
 }, {
-title: 'The Meteor Book', author: 'Tom Coleman',
-url: 'http://themeteorbook.com'
-} ];
-Template.postsList.helpers({ posts: postsData
+	title: 'The Lord of the Rings',
+	author: 'J. R. R. Tolkien',
+	url: 'http://en.wikipedia.org/wiki/The_Lord_of_the_Rings'
+}];
+Template.postsList.helpers({
+	posts: postsData
 });
